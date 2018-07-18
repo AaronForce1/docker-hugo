@@ -1,0 +1,7 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Dummy Hugo Site"
+theme = "kiera"
+
+[author]
+name = "Hugo Duck"

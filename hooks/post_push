@@ -119,6 +119,7 @@ function echos {
 echos "CI: $CI"
 echos "DOCKER_REPO: $DOCKER_REPO"
 echos "SOURCE_BRANCH: $SOURCE_BRANCH"
+echos "LEGACY_SOURCE_BRANCH: $LEGACY_SOURCE_BRANCH"
 echo
 
 # Build base images if found

@@ -1,6 +1,6 @@
-FROM klakegg/hugo:base AS base
+FROM aaronforce1/hugo:base AS base
 
-FROM klakegg/hugo:base-certs as certs
+FROM aaronforce1/hugo:base-certs as certs
 
 
 

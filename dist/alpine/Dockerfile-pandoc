@@ -1,8 +1,8 @@
-FROM klakegg/hugo:base-pandoc AS pandoc
+FROM aaronforce1/hugo:base-pandoc AS pandoc
 
 
 
-FROM klakegg/hugo:alpine
+FROM aaronforce1/hugo:alpine
 
 ENV HUGO_PANDOC="pandoc-default"
 

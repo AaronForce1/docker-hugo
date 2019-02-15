@@ -3,12 +3,13 @@
 # This is the file triggered by Travis.
 
 # Setting variables for build
-export DOCKER_REPO="klakegg/hugo"
-export SOURCE_BRANCH="0.xx"
+export DOCKER_REPO="aaronforce1/hugo"
+export SOURCE_BRANCH="0.xx.0"
+export LEGACY_SOURCE_BRANCH="0.xx"
 export CI="true"
 
 # Build initial image as done by Docker Hub
-docker build -t klakegg/hugo:base -f Dockerfile-base .
+docker build -t aaronforce1/hugo:base -f Dockerfile-base .
 echo
 
 # Trigger code for Docker Hub

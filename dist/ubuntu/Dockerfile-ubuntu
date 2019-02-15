@@ -1,4 +1,4 @@
-FROM klakegg/hugo:base AS base
+FROM aaronforce1/hugo:base AS base
 
 
 
